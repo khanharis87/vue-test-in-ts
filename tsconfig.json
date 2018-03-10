@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "lib": ["es2015", "es2015.promise", "es2017.object", "dom",  "es2017"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
